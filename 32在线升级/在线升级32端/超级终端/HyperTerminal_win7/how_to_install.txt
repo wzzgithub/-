@@ -1,0 +1,36 @@
+how install hyper terminal into Win7
+
+1. got:
+hypertrm.dll
+hticons.dll
+hypertrm.chm
+hypertrm.exe
+hypertrm.hlp
+from windows XP dir:C:\Windows\System32
+
+2.put
+hypertrm.dll
+hticons.dll
+into C:\Windows\System32
+
+3.in Win7,
+Start -> All Program -> Accessories, right click it, choose "Properties",
+copy Location path,
+then open that path, here mine is:
+C:\Users\XXXXX\AppData\Roaming\Microsoft\Windows\Start Menu\Programs 
+then gointo 
+Accessories
+create a new dir:
+hyper terminal
+then put:
+hypertrm.chm
+hypertrm.exe
+hypertrm.hlp
+into that dir
+
+4. create a shortcut of hypertrm.exe, put it in:
+C:\Users\XXXXX\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories
+then you can see it in the list of:
+Start -> All Program -> Accessories
+
+5.also copy a shortcut into desktop for daily use.

@@ -1,0 +1,186 @@
+
+<ApplicationBuild Header="STM32F10x_IAP" Extern=".\STM32F10x_IAP.rapp" Path=".\STM32F10x_IAP.rapp" OutputFile="obj\STM32F10x_IAP.elf" Config="STM3210E-EVAL" sate="98" >
+	<Group Header="Application files" Marker="-1" OutputFile="" sate="96" >
+		<NodeC Path="..\..\source\common.c" Header="common.c" Marker="-1" OutputFile="obj\common.o" sate="0" />
+		<NodeC Path="..\..\source\download.c" Header="download.c" Marker="-1" OutputFile="obj\download.o" sate="0" />
+		<NodeC Path="..\..\source\main.c" Header="main.c" Marker="-1" OutputFile="obj\main.o" sate="0" />
+		<NodeC Path="..\..\source\stm32f10x_it.c" Header="stm32f10x_it.c" Marker="-1" OutputFile="obj\stm32f10x_it.o" sate="0" />
+		<NodeC Path="..\..\source\ymodem.c" Header="ymodem.c" Marker="-1" OutputFile="obj\ymodem.o" sate="0" />
+																																																																																																																																																																											
+	</Group>
+	<Group Header="RIDE" Marker="-1" OutputFile="" sate="96" >
+		<NodeASM Path=".\cortexm3_macro.s" Header="cortexm3_macro.s" Marker="-1" OutputFile="obj\cortexm3_macro.o" sate="0" />
+		<NodeC Path=".\stm32f10x_vector.c" Header="stm32f10x_vector.c" Marker="-1" OutputFile="obj\stm32f10x_vector.o" sate="0" />
+																																																			
+	</Group>
+	<Group Header="FWLib" Marker="-1" OutputFile="" sate="96" >
+		<NodeC Path="..\..\..\FWLib\library\src\stm32f10x_wwdg.c" Header="stm32f10x_wwdg.c" Marker="-1" OutputFile="obj\stm32f10x_wwdg.o" sate="0" />
+		<NodeC Path="..\..\..\FWLib\library\src\stm32f10x_flash.c" Header="stm32f10x_flash.c" Marker="-1" OutputFile="obj\stm32f10x_flash.o" sate="0" />
+		<NodeC Path="..\..\..\FWLib\library\src\stm32f10x_gpio.c" Header="stm32f10x_gpio.c" Marker="-1" OutputFile="obj\stm32f10x_gpio.o" sate="0" />
+		<NodeC Path="..\..\..\FWLib\library\src\stm32f10x_lib.c" Header="stm32f10x_lib.c" Marker="-1" OutputFile="obj\stm32f10x_lib.o" sate="0" />
+		<NodeC Path="..\..\..\FWLib\library\src\stm32f10x_rcc.c" Header="stm32f10x_rcc.c" Marker="-1" OutputFile="obj\stm32f10x_rcc.o" sate="0" />
+		<NodeC Path="..\..\..\FWLib\library\src\stm32f10x_usart.c" Header="stm32f10x_usart.c" Marker="-1" OutputFile="obj\stm32f10x_usart.o" sate="0" />
+																																																			
+	</Group>
+	<Configs>
+		<Config Header="STM3210B-EVAL" />
+		<Config Header="STM3210E-EVAL" />
+																		
+	</Configs>
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ARM" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																								
+				</Section>
+				<Section Header="Directories" >
+					<Property Header="OutDir" Value="obj" Removable="1" />
+					<Property Header="ListDir" Value="lst" Removable="1" />
+					<Property Header="IncDir" Value="..\..\..\FWLib\library\inc;..\..\include" Removable="1" />
+																																																																																																																																																																
+				</Section>
+																																																																																																																												
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F103VBT6" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																								
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\\GNU.config" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																								
+				</Section>
+				<Section Header="DebugARM" >
+					<Property Header="DebugTool_CORTEX" Value="RLINK_CORTEX" Removable="1" />
+																																																																																																																																																																																																																															
+				</Section>
+																																																																																																																																																																													
+			</Set>
+			<Set Header="LD" >
+				<Section Header="LIB" >
+					<Property Header="UART0PUTC" Value="0" Removable="1" />
+					<Property Header="SMALLP" Value="0" Removable="1" />
+					<Property Header="STLIB" Value="0" Removable="1" />
+																																																																																																																																																																
+				</Section>
+				<Section Header="Linker" >
+					<Property Header="GC_SECTIONS" Value="-Wl,-static -Wl,--gc-sections" Removable="1" />
+																																																																																																																																														
+				</Section>
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="Yes" Removable="1" />
+																																																																																																										
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="SCRIPTFILES" Value="No" Removable="1" />
+					<Property Header="File" Value="stm32f10x_flash.ld" Removable="1" />
+																																																																															
+				</Section>
+																																																													
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+																																																																																								
+				</Section>
+																																																																				
+			</Set>
+																																								
+		</Config>
+		<Config Header="STM3210B_EVAL" >
+			<Set Header="LD" >
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																						
+				</Section>
+				<Section Header="LIB" >
+					<Property Header="SMALLP" Value="1" Removable="1" />
+																																																				
+				</Section>
+																																								
+			</Set>
+																									
+		</Config>
+		<Config Header="STM3210E_EVAL" >
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F103ZET6" />
+																																																																						
+				</Section>
+																																																						
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																						
+				</Section>
+																																																						
+			</Set>
+																																			
+		</Config>
+		<Config Header="STM3210E-EVAL" >
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F103ZET6" />
+																																																				
+				</Section>
+																																								
+			</Set>
+			<Set Header="LD" >
+				<Section Header="LIB" >
+					<Property Header="SMALLP" Value="1" Removable="1" />
+																																																				
+				</Section>
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																				
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="File" Value="" Removable="1" />
+					<Property Header="SCRIPTFILES" Value="Yes" Removable="1" />
+					<Property Header="StarterKitLimit" Value="No" Removable="1" />
+																
+				</Section>
+												
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="USE_STM3210E_EVAL" Removable="1" />
+							
+				</Section>
+					
+			</Set>
+		</Config>
+		<Config Header="STM3210B-EVAL" >
+			<Set Header="LD" >
+				<Section Header="LIB" >
+					<Property Header="SMALLP" Value="1" Removable="1" />
+																																											
+				</Section>
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																											
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="File" Value="" Removable="1" />
+					<Property Header="SCRIPTFILES" Value="Yes" Removable="1" />
+					<Property Header="StarterKitLimit" Value="No" Removable="1" />
+																
+				</Section>
+												
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="USE_STM3210B_EVAL" Removable="1" />
+							
+				</Section>
+					
+			</Set>
+		</Config>
+	</Options>
+</ApplicationBuild>

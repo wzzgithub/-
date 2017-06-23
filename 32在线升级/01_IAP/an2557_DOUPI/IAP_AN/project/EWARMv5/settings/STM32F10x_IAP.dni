@@ -1,0 +1,39 @@
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[CodeCoverage]
+Enabled=_ 0
+[Profiling]
+Enabled=0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Disassemble mode]
+mode=1
+[Breakpoints]
+Bp0=_ "STD_CODE" "{D:\IAP\an2557\IAP_AN\source\main.c}.57.5@1" 0 0 0 0 "" 0 "" 0
+Bp1=_ "STD_CODE" "{D:\IAP\an2557_DOUPI\IAP_AN\source\main.c}.85.7@1" 0 0 0 0 "" 0 "" 0
+Bp2=_ "STD_CODE" "{D:\IAP\an2557_DOUPI\IAP_AN\source\main.c}.81.7@1" 0 0 0 0 "" 0 "" 0
+Bp3=_ "STD_CODE" "{D:\IAP\an2557_DOUPI\IAP_AN\source\main.c}.77.5@1" 0 0 0 0 "" 0 "" 0
+Bp4=_ "STD_CODE" "{D:\IAP\an2557_DOUPI\IAP_AN\source\main.c}.81.7@1" 0 0 0 0 "" 0 "" 0
+Bp5=_ "STD_CODE" "{D:\IAP\an2557_DOUPI\IAP_AN\source\main.c}.58.5@1" 0 0 0 0 "" 0 "" 0
+Bp6=_ "STD_CODE" "{F:\linew\¶¹Æ¤test\an2557_DOUPI\IAP_AN\source\download.c}.48.5@1" 1 0 0 0 "" 0 "" 0
+Bp7=_ "STD_CODE" "{F:\linew\¶¹Æ¤test\an2557_DOUPI\IAP_AN\source\common.c}.449.7@1" 1 0 0 0 "" 0 "" 0
+Count=8
+[TraceHelper]
+Enabled=0
+ShowSource=1

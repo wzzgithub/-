@@ -1,0 +1,4 @@
+
+<Project Header="Project 'STM32F10x_IAP'" Path=".\STM32F10x_IAP.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="STM32F10x_IAP" >
+	<ApplicationBuild Header="STM32F10x_IAP" Extern=".\STM32F10x_IAP.rapp" Path=".\STM32F10x_IAP.rapp" OutputFile="obj\STM32F10x_IAP.elf" Config="STM3210E-EVAL" sate="98" ></ApplicationBuild>
+</Project>

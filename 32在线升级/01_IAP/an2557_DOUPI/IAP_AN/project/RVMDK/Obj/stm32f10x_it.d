@@ -1,0 +1,13 @@
+.\obj\stm32f10x_it.o: ..\..\source\stm32f10x_it.c
+.\obj\stm32f10x_it.o: ..\..\include\stm32f10x_it.h
+.\obj\stm32f10x_it.o: ..\..\..\FWLib\library\inc\stm32f10x_lib.h
+.\obj\stm32f10x_it.o: ..\..\..\FWLib\library\inc\stm32f10x_map.h
+.\obj\stm32f10x_it.o: ..\..\include\stm32f10x_conf.h
+.\obj\stm32f10x_it.o: ..\..\..\FWLib\library\inc\stm32f10x_type.h
+.\obj\stm32f10x_it.o: ..\..\..\FWLib\library\inc\cortexm3_macro.h
+.\obj\stm32f10x_it.o: ..\..\..\FWLib\library\inc\stm32f10x_flash.h
+.\obj\stm32f10x_it.o: ..\..\..\FWLib\library\inc\stm32f10x_gpio.h
+.\obj\stm32f10x_it.o: ..\..\..\FWLib\library\inc\stm32f10x_nvic.h
+.\obj\stm32f10x_it.o: ..\..\..\FWLib\library\inc\stm32f10x_rcc.h
+.\obj\stm32f10x_it.o: ..\..\..\FWLib\library\inc\stm32f10x_usart.h
+.\obj\stm32f10x_it.o: ..\..\..\FWLib\library\inc\stm32f10x_wwdg.h

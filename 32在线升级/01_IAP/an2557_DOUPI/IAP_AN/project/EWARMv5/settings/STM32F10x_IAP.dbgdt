@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window><Window><Factory>Find-in-Files</Factory></Window></Windows></PreferedWindows></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Find-in-Files</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>723</ColumnWidth1><ColumnWidth2>193</ColumnWidth2><ColumnWidth3>48</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>231</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        
+        
+      <PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><MixedMode>1</MixedMode><CodeCovShow>0</CodeCovShow></Disassembly>
+    <Find-in-Files><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Build</Factory></Window></Windows></PreferedWindows><ColumnWidth0>350</ColumnWidth0><ColumnWidth1>50</ColumnWidth1><ColumnWidth2>601</ColumnWidth2></Find-in-Files><Watch><Format><struct_types/><watch_formats><Fmt><Key>{W}Watch-1:BlockNbr</Key><Value>4</Value></Fmt><Fmt><Key>{W}Watch-1:FlashDestination</Key><Value>4</Value></Fmt></watch_formats></Format><Column0>78</Column0><Column1>180</Column1><Column2>110</Column2><Column3>100</Column3></Watch></Static>
+    <Windows>
+      
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-6236-29901</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>STM32F10x_IAP</ExpandedNode><ExpandedNode>STM32F10x_IAP/Application</ExpandedNode><ExpandedNode>STM32F10x_IAP/Application/ymodem.c</ExpandedNode><ExpandedNode>STM32F10x_IAP/EWARMv5</ExpandedNode><ExpandedNode>STM32F10x_IAP/FWLib</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2><Tabs><Tab><Identity>TabID-24538-6859</Identity><TabName>Watch</TabName><Factory>Watch</Factory><Session><Expressions><Expression><Expression>SerialKeyPressed</Expression></Expression><Expression><Expression>key</Expression></Expression><Expression><Expression>&amp;key</Expression></Expression></Expressions><TabId>0</TabId><Column0>100</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Session></Tab><Tab><Identity>TabID-18279-17457</Identity><TabName>Watch</TabName><Factory>Watch</Factory><Session><Expressions><Expression><Expression>file_name</Expression></Expression><Expression><Expression>BlockNbr</Expression></Expression><Expression><Expression>FlashDestination</Expression></Expression><Expression><Expression>file_size</Expression></Expression><Expression><Expression>NbrOfPage</Expression></Expression><Expression><Expression>pagenumber</Expression></Expression><Expression><Expression>size</Expression></Expression></Expressions><TabId>1</TabId><Column0>78</Column0><Column1>180</Column1><Column2>110</Column2><Column3>100</Column3></Session></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-16456-11742</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-15410-11761</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-10948-726</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>2</SelectedTab></Wnd3><Wnd7><Tabs><Tab><Identity>TabID-1873-10564</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd7></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>F:\linew\&#x8C46;&#x76Ae;test\an2557_DOUPI\IAP_AN\source\common.c</Filename><XPos>0</XPos><YPos>436</YPos><SelStart>5476</SelStart><SelEnd>5476</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>F:\linew\&#x8C46;&#x76Ae;test\an2557_DOUPI\IAP_AN\source\ymodem.c</Filename><XPos>0</XPos><YPos>145</YPos><SelStart>4694</SelStart><SelEnd>4694</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>F:\linew\&#x8C46;&#x76Ae;test\an2557_DOUPI\IAP_AN\source\download.c</Filename><XPos>0</XPos><YPos>32</YPos><SelStart>2133</SelStart><SelEnd>2133</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>F:\linew\&#x8C46;&#x76Ae;test\an2557_DOUPI\IAP_AN\source\main.c</Filename><XPos>0</XPos><YPos>77</YPos><SelStart>4114</SelStart><SelEnd>4114</SelEnd></Tab><ActiveTab>3</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>F:\linew\&#x8C46;&#x76Ae;test\an2557_DOUPI\IAP_AN\include\ymodem.h</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>1686</SelStart><SelEnd>1686</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00af8860><key>iaridepm.enu1</key></Toolbar-00af8860></Sizes></Row0><Row1><Sizes><Toolbar-0325a748><key>debuggergui.enu1</key></Toolbar-0325a748></Sizes></Row1></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>441</Bottom><Right>322</Right><x>-2</x><y>-2</y><xscreen>0</xscreen><yscreen>0</yscreen><sizeHorzCX>0</sizeHorzCX><sizeHorzCY>0</sizeHorzCY><sizeVertCX>316406</sizeVertCX><sizeVertCY>643895</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>441</Bottom><Right>289</Right><x>-2</x><y>-2</y><xscreen>0</xscreen><yscreen>0</yscreen><sizeHorzCX>0</sizeHorzCX><sizeHorzCY>0</sizeHorzCY><sizeVertCX>284180</sizeVertCX><sizeVertCY>643895</sizeVertCY></Rect></Wnd2></Sizes></Row0><Row1><Sizes><Wnd7><Rect><Top>-2</Top><Left>287</Left><Bottom>441</Bottom><Right>391</Right><x>287</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>195313</sizeHorzCX><sizeHorzCY>290698</sizeHorzCY><sizeVertCX>101563</sizeVertCX><sizeVertCY>643895</sizeVertCY></Rect></Wnd7></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>178</Bottom><Right>1026</Right><x>-2</x><y>-2</y><xscreen>1028</xscreen><yscreen>180</yscreen><sizeHorzCX>1003906</sizeHorzCX><sizeHorzCY>261628</sizeHorzCY><sizeVertCX>0</sizeVertCX><sizeVertCY>0</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

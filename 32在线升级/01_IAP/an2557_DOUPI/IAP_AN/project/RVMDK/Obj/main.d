@@ -1,0 +1,17 @@
+.\obj\main.o: ..\..\source\main.c
+.\obj\main.o: ..\..\include\common.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\main.o: ..\..\..\FWLib\library\inc\stm32f10x_lib.h
+.\obj\main.o: ..\..\..\FWLib\library\inc\stm32f10x_map.h
+.\obj\main.o: ..\..\include\stm32f10x_conf.h
+.\obj\main.o: ..\..\..\FWLib\library\inc\stm32f10x_type.h
+.\obj\main.o: ..\..\..\FWLib\library\inc\cortexm3_macro.h
+.\obj\main.o: ..\..\..\FWLib\library\inc\stm32f10x_flash.h
+.\obj\main.o: ..\..\..\FWLib\library\inc\stm32f10x_gpio.h
+.\obj\main.o: ..\..\..\FWLib\library\inc\stm32f10x_nvic.h
+.\obj\main.o: ..\..\..\FWLib\library\inc\stm32f10x_rcc.h
+.\obj\main.o: ..\..\..\FWLib\library\inc\stm32f10x_usart.h
+.\obj\main.o: ..\..\..\FWLib\library\inc\stm32f10x_wwdg.h
+.\obj\main.o: ..\..\include\ymodem.h
+.\obj\main.o: ..\..\include\platform_config.h
