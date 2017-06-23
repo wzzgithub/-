@@ -1,0 +1,5 @@
+需要安装Windows .Net FrameWork3.5 和 direct9 和MSChart for NET3.5
+
+1. https://www.baidu.com/s?wd=.net%20framework%203.5&rsv_spt=1&rsv_iqid=0xb35494ae0005fedc&issp=1&f=3&rsv_bp=1&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&oq=%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%20load%20%E5%92%8C%20active&inputT=1897&rsv_t=96c0%2BOtT213yrlj3yfGrZVlxk7YxCoQzY%2BBxn01%2BW8179eMxOKSQ7gbapRzhPcrJIKvU&rsv_pq=c088f57d0001d0d9&rsv_sug3=106&rsv_sug1=59&rsv_sug2=0&prefixsug=.net&rsp=2&rsv_sug4=1897
+2. https://www.baidu.com/s?wd=directx9.0&rsv_spt=1&rsv_iqid=0xb35494ae0005fedc&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&oq=directx%E9%9A%8F%E6%84%8F%E5%8D%B86.%26lt%3B%20%E6%B3%A8%E5%86%8C%E7%A0%81&inputT=2011&rsv_t=fa50N5MhPA0sYH0zWWMP836pqoYJF9NsNQcCaFdU1%2FZbe3Pu%2BEKdy%2BahIoHPl6rIT427&rsv_pq=b35df0360003a90e&rsv_sug3=172&rsv_sug1=130&sug=directx9.0&rsv_n=1&bs=directx%E9%9A%8F%E6%84%8F%E5%8D%B86.3%20%E6%B3%A8%E5%86%8C%E7%A0%81
+3. MSChart已经在本资料包中

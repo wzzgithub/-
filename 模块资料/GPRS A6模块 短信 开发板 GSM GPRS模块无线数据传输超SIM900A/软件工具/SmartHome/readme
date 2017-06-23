@@ -1,0 +1,71 @@
+
+
+
+二维码信息:7909,7909,2005型模块
+二维码信息:              37 39 30 39 2c 37 39 30 39 2c 32 30 30 35 e5 9e 8b e6 a8 a1 e5 9d 97 
+二维码信息:ef bb bf 37 39 30 39 2c 37 39 30 39 2c 32 30 31 35 e5 9e 8b e6 a8 a1 e5 9d 97 
+
+
+	
+	//  发布地址  cloud.ai-thinker.com
+	//	cloud.ai-thinker.com
+	//	admin
+	//	admin_!@#*()
+	//  调试地址 tangdengan.xicp.net
+//	public final static String WEBSERVICE_SERVER_URL="http://182.139.160.79:8020/service/s.asmx";
+	public final static String WEBSERVICE_SERVER_URL="http://cloud.ai-thinker.com/service/s.asmx";
+	public final static String TCP_SERVER_URL="cloud.ai-thinker.com";
+//	public final static String WEBSERVICE_SERVER_URL="http://tangdengan.xicp.net:8020/service/s.asmx";
+//	public final static String TCP_SERVER_URL="tangdengan.xicp.net";
+	
+//	public final static String TCP_SERVER_URL="182.139.160.79";
+	public final static int  TCP_SERVER_PORT=6009;
+	public final static String DEV_UDP_IPADDR="192.168.4.1";
+	public final static int  DEV_UDP_PORT=8001;
+	
+	
+	2015 04 19去掉二维码，添加UDP广播方式接受设备。
+udp广播目标端口:2468
+
+我请求数据报文：RPL头，我ip："192.168.1.101"，我UDP端口："46959"
+RPL:"192.168.1.101","46959" 
+
+返回：
+RPT:"0xa1b23467","0xaf321234","192.168.0.123","light","123456a"
+
+2015 06 04 增加
+红:LIGHTR:xx(00-99)
+绿:LIGHTG:xx(00-99)
+蓝:LIGHTB:xx(00-99)
+LIGHTR:99
+
+
+
+  <FrameLayout  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+	           > 	   
+	      <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="0sp"
+	        android:layout_marginLeft="18dp"
+	        android:textSize="18sp"
+	        android:text="操作:" />
+	      
+    <Button
+        android:id="@+id/devDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/logined_10" />
+    
+    <Button
+        android:id="@+id/devControl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:background="@drawable/logined_12" />
+      
+    </FrameLayout>
+ 

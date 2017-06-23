@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical" >
+
+    <!-- title -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#4173A8"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp" >
+
+            <TextView
+                android:id="@+id/titleScan"
+                android:layout_width="20dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/control2_03" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="扫 描"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+        </FrameLayout>
+    </LinearLayout>
+    <!-- 按键 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/scanBtnScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/scan_03"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etName"
+        style="@style/SP_EditTextTheme"
+        android:drawableLeft="@drawable/login_icon_key"
+        android:hint="@string/scan_name_hint" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnGetID"
+            style="@style/SP_ButtonBlue"
+            android:layout_weight="1"
+            android:text="@string/btnGetID"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnQRCode"
+            style="@style/SP_ButtonBlue"
+            android:layout_weight="1"
+            android:text="@string/btnQRCode"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            android:id="@+id/scanProgBarScanInfo"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="100" />
+    </LinearLayout>
+
+    <!-- ID -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="100dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="ID："
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/scanLblId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- 编号 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="100dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码："
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/scanLblPassWd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- 功率 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="100dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="型号："
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/scanLblType"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/scanResult"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="150dp" >
+    </LinearLayout>
+
+</LinearLayout>
