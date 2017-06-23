@@ -1,0 +1,12 @@
+--cpu Cortex-M3
+".\mk60d10\flash\system_mk60d10.o"
+".\mk60d10\flash\startup_mk60d10.o"
+".\mk60d10\flash\main.o"
+".\mk60d10\flash\common.o"
+".\mk60d10\flash\gpio.o"
+".\mk60d10\flash\uart.o"
+".\mk60d10\flash\packet.o"
+--strict --scatter ".\mk60d10\flash\templete.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\templete.map" -o .\mk60d10\flash\templete.axf

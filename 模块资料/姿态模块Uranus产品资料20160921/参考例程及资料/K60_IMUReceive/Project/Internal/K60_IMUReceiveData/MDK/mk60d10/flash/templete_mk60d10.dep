@@ -1,0 +1,73 @@
+Dependencies for Project 'templete', Target 'mk60d10': (DO NOT MODIFY !)
+F (..\..\..\..\Libraries\startup\src\system_MK60D10.c)(0x575E659A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\..\Libraries\startup\inc -I..\..\..\..\Libraries\drivers\inc -I..\..\..\..\Libraries\utilities\inc -I..\..\..\..\Libraries\devices\inc -I..\..\..\..\Libraries\utilities\imu -I..\src --c99-I E:\流量测量仪\模块资料\姿态模块Uranus产品资料20160921\参考例程及资料\K60_IMUReceive\Project\Internal\K60_IMUReceiveData\MDK\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DMK60D10 -DRAVEN-o .\mk60d10\flash\system_mk60d10.o --omf_browse .\mk60d10\flash\system_mk60d10.crf --depend .\mk60d10\flash\system_mk60d10.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\..\..\Libraries\startup\inc\MK60D10.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cm4.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cmInstr.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cmFunc.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cm4_simd.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\system_MK60D10.h)(0x575E659A)
+F (..\..\..\..\Libraries\startup\src\mdk\startup_MK60D10.s)(0x575E659A)(--cpu Cortex-M3 -g --apcs=interwork -I E:\流量测量仪\模块资料\姿态模块Uranus产品资料20160921\参考例程及资料\K60_IMUReceive\Project\Internal\K60_IMUReceiveData\MDK\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\startup_mk60d10.lst --xref -o .\mk60d10\flash\startup_mk60d10.o --depend .\mk60d10\flash\startup_mk60d10.d)
+F (..\src\main.c)(0x59015027)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\..\Libraries\startup\inc -I..\..\..\..\Libraries\drivers\inc -I..\..\..\..\Libraries\utilities\inc -I..\..\..\..\Libraries\devices\inc -I..\..\..\..\Libraries\utilities\imu -I..\src --c99-I E:\流量测量仪\模块资料\姿态模块Uranus产品资料20160921\参考例程及资料\K60_IMUReceive\Project\Internal\K60_IMUReceiveData\MDK\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DMK60D10 -DRAVEN-o .\mk60d10\flash\main.o --omf_browse .\mk60d10\flash\main.crf --depend .\mk60d10\flash\main.d)
+I (..\..\..\..\Libraries\drivers\inc\common.h)(0x5796DA11)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\Libraries\startup\inc\MK60D10.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cm4.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cmInstr.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cmFunc.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cm4_simd.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\system_MK60D10.h)(0x575E659A)
+I (..\..\..\..\Libraries\drivers\inc\uart.h)(0x578C3977)
+I (..\..\..\..\Libraries\drivers\inc\mcg.h)(0x575E659A)
+I (..\..\..\..\Libraries\utilities\imu\packet.h)(0x57A2E3A0)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\..\..\..\Libraries\drivers\src\common.c)(0x57986E9F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\..\Libraries\startup\inc -I..\..\..\..\Libraries\drivers\inc -I..\..\..\..\Libraries\utilities\inc -I..\..\..\..\Libraries\devices\inc -I..\..\..\..\Libraries\utilities\imu -I..\src --c99-I E:\流量测量仪\模块资料\姿态模块Uranus产品资料20160921\参考例程及资料\K60_IMUReceive\Project\Internal\K60_IMUReceiveData\MDK\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DMK60D10 -DRAVEN-o .\mk60d10\flash\common.o --omf_browse .\mk60d10\flash\common.crf --depend .\mk60d10\flash\common.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\..\..\..\Libraries\drivers\inc\common.h)(0x5796DA11)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\Libraries\startup\inc\MK60D10.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cm4.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cmInstr.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cmFunc.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cm4_simd.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\system_MK60D10.h)(0x575E659A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\..\..\..\Libraries\drivers\src\gpio.c)(0x579ACC50)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\..\Libraries\startup\inc -I..\..\..\..\Libraries\drivers\inc -I..\..\..\..\Libraries\utilities\inc -I..\..\..\..\Libraries\devices\inc -I..\..\..\..\Libraries\utilities\imu -I..\src --c99-I E:\流量测量仪\模块资料\姿态模块Uranus产品资料20160921\参考例程及资料\K60_IMUReceive\Project\Internal\K60_IMUReceiveData\MDK\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DMK60D10 -DRAVEN-o .\mk60d10\flash\gpio.o --omf_browse .\mk60d10\flash\gpio.crf --depend .\mk60d10\flash\gpio.d)
+I (..\..\..\..\Libraries\drivers\inc\common.h)(0x5796DA11)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\Libraries\startup\inc\MK60D10.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cm4.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cmInstr.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cmFunc.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cm4_simd.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\system_MK60D10.h)(0x575E659A)
+I (..\..\..\..\Libraries\drivers\inc\gpio.h)(0x5798C0E9)
+F (..\..\..\..\Libraries\drivers\src\uart.c)(0x578C3977)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\..\Libraries\startup\inc -I..\..\..\..\Libraries\drivers\inc -I..\..\..\..\Libraries\utilities\inc -I..\..\..\..\Libraries\devices\inc -I..\..\..\..\Libraries\utilities\imu -I..\src --c99-I E:\流量测量仪\模块资料\姿态模块Uranus产品资料20160921\参考例程及资料\K60_IMUReceive\Project\Internal\K60_IMUReceiveData\MDK\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DMK60D10 -DRAVEN-o .\mk60d10\flash\uart.o --omf_browse .\mk60d10\flash\uart.crf --depend .\mk60d10\flash\uart.d)
+I (..\..\..\..\Libraries\drivers\inc\uart.h)(0x578C3977)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\..\..\Libraries\drivers\inc\common.h)(0x5796DA11)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\Libraries\startup\inc\MK60D10.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cm4.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cmInstr.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cmFunc.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\core_cm4_simd.h)(0x575E659A)
+I (..\..\..\..\Libraries\startup\inc\system_MK60D10.h)(0x575E659A)
+F (..\..\..\..\Libraries\utilities\imu\packet.c)(0x57A2E463)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\..\Libraries\startup\inc -I..\..\..\..\Libraries\drivers\inc -I..\..\..\..\Libraries\utilities\inc -I..\..\..\..\Libraries\devices\inc -I..\..\..\..\Libraries\utilities\imu -I..\src --c99-I E:\流量测量仪\模块资料\姿态模块Uranus产品资料20160921\参考例程及资料\K60_IMUReceive\Project\Internal\K60_IMUReceiveData\MDK\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DMK60D10 -DRAVEN-o .\mk60d10\flash\packet.o --omf_browse .\mk60d10\flash\packet.crf --depend .\mk60d10\flash\packet.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\..\..\..\Libraries\utilities\imu\packet.h)(0x57A2E3A0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
